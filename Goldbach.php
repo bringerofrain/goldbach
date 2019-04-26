@@ -117,6 +117,3 @@ class goldbach
         print sprintf("%s = %s + %s\n", $primeNumber, $sequence1, $sequenc2);
     }
 }
-
-$gb = new goldbach(1000);
-$gb->output();
